@@ -11,7 +11,7 @@ public import QIT.Coding.Private.QubitDeformedEnsemble
 public import QIT.Coding.Private.QubitDeformedDiagonalEntropy
 
 /-!
-# The measured private-information rate of the revised physical example
+# The measured private-information rate of the deformed encoding
 
 The spectral and logarithm certificates are connected to the actual channel
 outputs, the fixed measurement, and both erasure-flag branches. The final

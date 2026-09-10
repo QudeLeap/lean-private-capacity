@@ -9,7 +9,7 @@ module
 public import QIT.Coding.Private.HalfErasure
 
 /-!
-# The three-vector qubit encoding of the revised manuscript
+# The three-vector qubit encoding
 
 The register order is exactly the paper's `RA = Fin 2 × Fin 4`.
 The definitions correspond to `eq:vectors` and `eq:encoding` in the

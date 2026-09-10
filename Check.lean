@@ -1,7 +1,7 @@
 import QIT
 import Lean.Util.CollectAxioms
 
--- Revised paper example: the capacity conclusion itself is literal and unconditional.
+-- Check the deformed half-erasure capacity conclusion with no hypotheses.
 example :
     QIT.Channel.privateCapacity.{0, 0, 0, 0}
         QIT.Channel.privateN QIT.Channel.complementN = 0 ∧

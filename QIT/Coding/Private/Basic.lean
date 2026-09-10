@@ -17,9 +17,8 @@ public import QIT.Coding.Classical.HSWConverse
 /-!
 # Private capacity foundations
 
-This module introduces the channel-theoretic prerequisites for the paper
-"Private-capacity superactivation"
-(Zhu--Wang, 2026), the operational setting and eq:capacities:
+This module defines complementary channels and the regularized private-information
+formula used in the superactivation proof:
 
 * `MatrixMap.transposeMap` — the entrywise transpose as a complex-linear map
   (positive but not completely positive in general; it is stored as a
@@ -92,10 +91,7 @@ section TransposeEntropy
 omit [Fintype a] [DecidableEq a] in
 /-- Positive semidefiniteness is preserved under entrywise transposition.
 
-Roadmap: for `M = B† B` (Cholesky-style characterization of `PosSemidef`),
-`Mᵀ = C† C` with `C` the entrywise conjugate of `B`, since
-`(B† B)ᵀ = Bᵀ B̄ = (B̄)† (B̄)`.  Alternatively search mathlib for
-`Matrix.PosSemidef` transpose lemmas. -/
+This follows from `Matrix.PosSemidef.transpose`. -/
 theorem posSemidef_transpose {M : CMatrix a} (hM : M.PosSemidef) :
     (Matrix.transpose M).PosSemidef := by
   exact hM.transpose
@@ -118,12 +114,8 @@ theorem hermitian_transpose {M : CMatrix a} (hM : M.IsHermitian) :
 
 /-- Transposition preserves the eigenvalue multiset of a Hermitian matrix.
 
-Roadmap: `Matrix.charpoly_transpose` (already used in
-`QIT/Information/Entropy/Entropy.lean`) gives
-`(Mᵀ).charpoly = M.charpoly`; Hermitian eigenvalues are the real roots of the
-characteristic polynomial with multiplicity, so the (sorted) eigenvalue
-vectors coincide.  A mathlib bridge
-`Matrix.IsHermitian.eigenvalues`-vs-`charpoly.roots` may need assembling. -/
+`Matrix.charpoly_transpose` gives equality of characteristic polynomials;
+`Matrix.IsHermitian.eigenvalues_eq_eigenvalues_iff` then identifies the eigenvalue vectors. -/
 theorem eigenvalues_hermitian_transpose {M : CMatrix a} (hM : M.IsHermitian) :
     (hermitian_transpose hM).eigenvalues = hM.eigenvalues := by
   exact ((hermitian_transpose hM).eigenvalues_eq_eigenvalues_iff hM).mpr
@@ -298,14 +290,13 @@ Meaningful use pairs `Nc` with a genuine complement: when
 eq:capacities; with an arbitrary second channel the expression denotes only
 the displayed optimization.  The zero-capacity theorems below fix one
 explicit complement, and the superactivation lower bound exhibits one
-explicit ensemble, so this caveat never bites there.
+explicit ensemble with that complement.
 
 Complement independence (any two full complements are related by an
 isometry, which leaves Holevo information invariant) is *not* needed for the
 results formalized here: the zero statements use one fixed complement, and
-the superactivation lower bound exhibits one explicit ensemble.  It is
-deferred to the definitional-hygiene pass (no obligation number; not needed
-below). -/
+the superactivation lower bound exhibits one explicit ensemble. Complement independence is not formalized in this
+module. -/
 def Channel.privateCapacity (N : Channel a b) (Nc : Channel a e) : ℝ :=
   sSup (Channel.privateCapacityRateValues.{u, v, w, uEnsemble} N Nc)
 

@@ -11,7 +11,7 @@ public import QIT.Coding.Private.QubitProduct
 /-!
 # Mixed and deformed input letters
 
-The revised example uses two different deformations of the base state and
+The deformed encoding uses two different deformations of the base state and
 mixes the second with `rho1`. These are density matrices on the paper's RA
 register, then explicitly swapped for the physical channel N ⊗ E₂.
 The denominator form avoids introducing unnecessary square roots; the theorem

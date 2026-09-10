@@ -16,8 +16,8 @@ public import QIT.Coding.Private.TransposeCriterion
 Its Kraus complement is `X ↦ ½ Tr(X) ⊕ ½X`; a summand swap proves
 self-complementarity and zero regularized private information.
 
-The September 7 revised manuscript uses `Channel.erasure2` (`eq:erasure`).
-The `erasure4` specialization is retained for the earlier encoding.
+The qubit specialization is `Channel.erasure2`; `Channel.erasure4` gives
+the four-dimensional specialization.
 -/
 
 @[expose] public section
@@ -643,7 +643,7 @@ theorem halfErasure_privateCapacity_eq_zero :
       (halfErasure_antidegradable (n := n))
 
 
-/-- Qubit half erasure, used by the current manuscript. -/
+/-- Qubit half-erasure channel. -/
 abbrev Channel.erasure2 := Channel.halfErasure (n := 2)
 
 /-- The full three-dimensional complement of qubit half erasure. -/
@@ -657,7 +657,7 @@ theorem erasure2_privateCapacity_eq_zero :
     Channel.privateCapacity Channel.erasure2 Channel.erasure2Complement = 0 :=
   halfErasure_privateCapacity_eq_zero (n := 2)
 
-/-- Four-dimensional specialization retained for the earlier manuscript. -/
+/-- Four-dimensional half-erasure channel. -/
 abbrev Channel.erasure4 := Channel.halfErasure (n := 4)
 
 abbrev Channel.erasure4Complement := Channel.halfErasureComplement (n := 4)

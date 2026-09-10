@@ -27,4 +27,4 @@ formalization of every presentation choice in the paper.
 
 The capacity is the regularized private-information formula. Operational coding,
 capacity equivalence, a general-erasure quadratic bound and decoder converses are
-outside this branch's proof. The latest construction is on `main`.
+outside this branch's proof. The transition-channel construction is on `main`.

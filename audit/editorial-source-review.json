@@ -1,0 +1,66 @@
+{
+  "base_commit": "af4cbc1e74d2e1b2744a32a28c9f46ae1b156138",
+  "scope": "Editorial changes only; Lean text outside comments is byte-identical. No theorem, definition, proof term or import was changed.",
+  "lean_files": {
+    "QIT/Coding/Private/Basic.lean": {
+      "before_sha256": "a2720a82da1be2610f08976096b5b684d788e25c419e4a8d56d64db92db2fe1d",
+      "after_sha256": "d970ec656b7abfaa521e3ff3884d53722e50e4547196a02c6711337ee7ec5722",
+      "code_without_comments_sha256": "c55edd7fcbb448fac8dc06e7936abcc116ffc81355bb77e3c6004bbf0f5d2e02"
+    },
+    "QIT/Coding/Private/HalfErasure.lean": {
+      "before_sha256": "79c4754473b967619e6099f81295d9891954cf5ecff1a1a30bc9a1669bdf83f1",
+      "after_sha256": "34a9a81afd713973cfbab3ff9fa8233c7751c06094e07e5da486ba84d6ad7c81",
+      "code_without_comments_sha256": "b5daedc96e67b37bb494a3a522d011e5b90f32093a0d6910b5261d6ffa080e2d"
+    },
+    "QIT/Coding/Private/TransposeCriterion.lean": {
+      "before_sha256": "ab9e87480503b8eea2b56741f7c81ee684c468f743815d319ffd6f3b5e22adc5",
+      "after_sha256": "f51411ef2ef11ee8fe9c7d567e8a41e801a7301478b5bce45ea89fc31aa72517",
+      "code_without_comments_sha256": "94ca8df3111b8af8bb2f3285dea8f9fe707a1d0d461d969d08e2eabb61016ed1"
+    },
+    "Check.lean": {
+      "before_sha256": "61b36a8aa964f12524a6ebd6043db7e14450d2356d09f9a027e3ee8ac45d2ad1",
+      "after_sha256": "498ef27f9424900e92178072dd05f060009041acdc5fe71477c58cef546fca20",
+      "code_without_comments_sha256": "448ad950e0b5e0710d956d8ebf582a43512cd5b18d583aa3bec87325cee5fdd3"
+    },
+    "QIT/Coding/Private/ExplicitChannel.lean": {
+      "before_sha256": "0791c5113c9de260529cb99ce19b73ab6f20be1d53af25b777edcf92739a3664",
+      "after_sha256": "4948d8cf7d5bab69dfb79027660930f43684e6457b590c1710ceebcb0face33e",
+      "code_without_comments_sha256": "9c61358c2a995ed7ac60d6ef8bedbfdf95f28197fd70984abe7a417167e479a0"
+    },
+    "QIT/Coding/Private/QubitDeformedEncoding.lean": {
+      "before_sha256": "52bba877cb680bff7ec7578c2fd24b814af2ca53a64a554060b86971fcbbf851",
+      "after_sha256": "bbff0f9cca6f3a49e75cef177e02f9e7b56b6a265218c1fc9662c116da1c9f92",
+      "code_without_comments_sha256": "fcab1cd1317e891f4f1167c86cb6e6b6356f08a4f6f529d0acaf498fc4ed995e"
+    },
+    "QIT/Coding/Private/QubitDeformedMeasurement.lean": {
+      "before_sha256": "5150d6b40fb6970563f7983fd60f39ed9343ebab23d49d0d993cb584a8f26da2",
+      "after_sha256": "e1e56d15ef715648b3297bd167c20204ce08f456790a52531d1838a5c8616a47",
+      "code_without_comments_sha256": "7e6e3c31542a5c882a151327ceca2af89771559cc5ec72e99b5b2df90d206c27"
+    },
+    "QIT/Coding/Private/QubitDeformedRate.lean": {
+      "before_sha256": "e2b0820b24f68d653c67d34f7c590e22b499751779205098aeab12beb1dc94f9",
+      "after_sha256": "2fb340abb8592590b2d06b59c018fcb36bb72f5eb6a99da35bbe7f936c7a39d2",
+      "code_without_comments_sha256": "bddb88b140fe845da510b9b1fe0331fd33e02153f17b967869ba086a2c5c66d8"
+    },
+    "QIT/Coding/Private/QubitDeformedSuperactivation.lean": {
+      "before_sha256": "2b896fd43fd49458f2b65f2e53207b3a1845c5d847465c058229072b25447a23",
+      "after_sha256": "ef6efa5d4bc3a140043cf96197ad017f084875ac61d60e5ecd81e3806e804d69",
+      "code_without_comments_sha256": "be54a7d266d76bec4aad9fd00e9ada7d7ecba6c3aae87500435ee089bd6c9a8a"
+    },
+    "QIT/Coding/Private/QubitEncoding.lean": {
+      "before_sha256": "12dd0d7d607d6257da7e1b2910e4f5838cb92980a8df545077d6de21e9477a99",
+      "after_sha256": "e05c91cfec1b6e9f9ce7f95ef335480774c1f1021a88adf0992287d1828ee1c6",
+      "code_without_comments_sha256": "b40d0f7e83eaad2ce9d8ed9d1943d836d83b2f8fe410982f49216fab67cd56af"
+    },
+    "QIT/Coding/Private/QubitSuperactivation.lean": {
+      "before_sha256": "a9f94c97fdb4672edff3e7635f1c1acb8d0d6f1f292d1ad6b9be2251076413a8",
+      "after_sha256": "e9d2be62c5b9d5d3159fd00093a925ac500b33c07c2cf19aa4c882ca1642806e",
+      "code_without_comments_sha256": "e32e2eb307c33002f235b11170abc2ea1aa6fc4cec27271362e9ffa2f56a0cbd"
+    }
+  },
+  "other_files": [
+    "README.md",
+    "docs/PROOF_MAP.md",
+    "docs/VERIFICATION.md"
+  ]
+}

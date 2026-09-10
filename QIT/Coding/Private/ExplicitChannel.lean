@@ -12,10 +12,9 @@ public import QIT.Coding.Private.TransposeCriterion
 /-!
 # The explicit four-dimensional channel and transpose simulator
 
-The channel, its full eight-dimensional Kraus complement, and the simulator
-are the common data of the earlier and revised manuscripts. Every positivity
-and trace-preservation certificate in this module is proved. The simulation
-identity is proved separately in `SimulatorCertificate`.
+This module constructs a four-dimensional channel, its full eight-dimensional
+Kraus complement and a transpose simulator. Positivity and trace preservation
+are proved here; the simulation identity is proved in `SimulatorCertificate`.
 -/
 
 @[expose] public section
@@ -194,8 +193,7 @@ def Channel.privateN : Channel (Fin 4) (Fin 4) where
 /-- Complete positivity of the complementary channel of a Kraus family
 (the `MatrixMap.complementOfKraus` constructor of `QIT.Coding.Private.Basic`).
 
-This is the general M1 obligation on the complementary-channel
-constructor, instantiated here at `krausN`. -/
+This instantiates the general complementary-channel theorem at `krausN`. -/
 theorem complementN_completelyPositive :
     MatrixMap.IsCompletelyPositive (MatrixMap.complementOfKraus krausN) := by
   exact MatrixMap.complementOfKraus_completelyPositive krausN

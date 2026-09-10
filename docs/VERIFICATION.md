@@ -32,10 +32,13 @@ change, review definitions, statements and proofs before updating these records.
 
 ## Preserved evidence
 
-The source-only cleanup retains all 135 mathematical files, `QIT.lean` and
-`Check.lean` byte-for-byte from the earlier verified proof. The original kernel
-check completed on 2026-09-08 UTC and audited 1,564 private-capacity declarations.
-`audit/prior-verification.json` binds those source hashes and the two `prior-*.log`
-files. The updated verifier revalidates this evidence's import closure and axioms;
-this is not described as a fresh Lean rebuild. Running the full command above
-produces a new verification result for this package.
+The original evidence covers the earlier 135-module proof. Subsequent editorial
+changes affect comments and documentation only; see `audit/editorial-source-review.json`.
+The original kernel check completed on 2026-09-08 UTC and audited 1,564 private-capacity declarations.
+`audit/prior-verification.json` binds the original source hashes and the two
+`prior-*.log` files. These historical records retain their original date and scope.
+Running the full command above produces a new verification result for this package.
+
+The build and kernel checks following the editorial changes are recorded in
+`audit/editorial-verification.json`. This record distinguishes an incremental build
+from the full clean rebuild performed by the release verifier.

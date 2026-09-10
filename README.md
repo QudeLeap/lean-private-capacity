@@ -1,7 +1,7 @@
 # Private-capacity superactivation — earlier proof
 
 This branch preserves the **deformed half-erasure example**.
-The latest manuscript's proof is on [`main`](https://github.com/QudeLeap/lean-private-capacity).
+The transition-channel proof is on [`main`](https://github.com/QudeLeap/lean-private-capacity).
 Manuscripts are distributed separately.
 
 ## Formalized result
@@ -34,7 +34,7 @@ verification is preserved with its date; see [verification details](docs/VERIFIC
 
 | Branch | Proof version |
 |---|---|
-| [`main`](https://github.com/QudeLeap/lean-private-capacity/tree/main) | Latest transition-channel construction, all `1/2 ≤ p < 1`. |
+| [`main`](https://github.com/QudeLeap/lean-private-capacity/tree/main) | Transition-channel construction, all `1/2 ≤ p < 1`. |
 | [`pre-main-new-proof`](https://github.com/QudeLeap/lean-private-capacity/tree/pre-main-new-proof) | Earlier deformed half-erasure example. |
 
 ## Repository layout

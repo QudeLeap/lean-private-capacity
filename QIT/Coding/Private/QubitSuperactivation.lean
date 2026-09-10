@@ -74,7 +74,7 @@ theorem privateCapacity_ge_certifiedRate :
 /-- The half-erasure, q=2^-48 instance of `thm:private`, with lower bound
 2^-49 log₂(16/7)>2^-49 for the regularized information definition of capacity.
 No Holevo bounds or matrix identities are assumed. This does not assert the
-new manuscript's all-p extension or its stronger numerical lower bound. -/
+general-erasure extension or the stronger bound from the deformed encoding. -/
 theorem superactivation_main :
     Channel.privateCapacity.{0, 0, 0, u} privateN complementN = 0 ∧
       Channel.privateCapacity.{0, 0, 0, u} erasure2 erasure2Complement = 0 ∧

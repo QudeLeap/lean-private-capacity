@@ -24,7 +24,7 @@ open Channel SimulatorCanonical
 noncomputable section
 universe u
 
-/-- Ordered RB basis from the revised paper, in its stated eight-outcome order. -/
+/-- Ordered RB basis for the deformed encoding, in its stated eight-outcome order. -/
 def deformedReceiverVector (j : Fin 8) (x : RA) : ℂ :=
   if j.val = 0 then phiCanonical 0 x
   else if j.val = 1 then phiCanonical 1 x

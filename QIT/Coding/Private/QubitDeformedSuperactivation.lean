@@ -10,7 +10,7 @@ public import QIT.Coding.Private.QubitDeformedRate
 public import QIT.Coding.Private.QubitSuperactivation
 
 /-!
-# The revised half-erasure superactivation theorem
+# The deformed half-erasure superactivation theorem
 
 The rationally deformed encoding and fixed receiver measurement give a rate
 strictly above 181/400000. Capacity here is the regularized information formula;
