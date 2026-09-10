@@ -40,7 +40,7 @@ public import QIT.Coding.Private.Basic
 /-!
 # Rational data for the transition-channel construction
 
-Generated from the explicitly entered matrices in `private_superactivation.tex`.
+Generated from the explicitly entered matrices in arXiv:2609.10520.
 These tables are proof aids. The equalities below are checked by Lean, and the
 channel and simulator modules connect them to their complex physical operators.
 -/

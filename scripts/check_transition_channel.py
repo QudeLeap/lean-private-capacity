@@ -2,7 +2,7 @@
 """Exact independent checks of the transition-channel manuscript.
 
 Requires SymPy. These checks are supplementary; their output is not a premise
-of any Lean theorem. Input matrices follow private_superactivation.tex.
+of any Lean theorem. Input matrices follow arXiv:2609.10520.
 """
 
 if not __debug__:

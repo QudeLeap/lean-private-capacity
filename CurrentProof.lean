@@ -4,6 +4,6 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Chengkai Zhu
 -/
 
--- Current private_superactivation.tex: the core theorem and literal paper certificates.
+-- arXiv:2609.10520: the core theorem and explicit matrix certificates.
 import QIT.Coding.Private.TransitionSuperactivation
 import QIT.Coding.Private.TransitionPaperData

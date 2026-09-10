@@ -30,6 +30,11 @@ hashes. `release/source-manifest.json` binds this package and its verification
 scripts. Hashes establish identity, not mathematical equivalence. After a proof
 change, review definitions, statements and proofs before updating these records.
 
+Editorial changes to Lean comments are recorded in `audit/editorial-source-review.json`.
+For these changes, text outside comments is byte-identical to the cited source commit.
+Historical build records retain their original inputs and dates; subsequent build
+and kernel checks are recorded separately in `audit/editorial-verification.json`.
+
 ## Supplementary exact calculations
 
 These optional checks require SymPy and do not supply premises to Lean.

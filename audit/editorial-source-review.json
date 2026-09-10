@@ -1,0 +1,59 @@
+{
+  "base_commit": "27bda37d6ad07e9a51a5cf9f65420fcd1355bf56",
+  "scope": "Editorial changes only; Lean text outside comments is byte-identical. No theorem, definition, proof term or import was changed.",
+  "lean_files": {
+    "QIT/Coding/Private/Basic.lean": {
+      "before_sha256": "a2720a82da1be2610f08976096b5b684d788e25c419e4a8d56d64db92db2fe1d",
+      "after_sha256": "d970ec656b7abfaa521e3ff3884d53722e50e4547196a02c6711337ee7ec5722",
+      "code_without_comments_sha256": "c55edd7fcbb448fac8dc06e7936abcc116ffc81355bb77e3c6004bbf0f5d2e02"
+    },
+    "QIT/Coding/Private/HalfErasure.lean": {
+      "before_sha256": "79c4754473b967619e6099f81295d9891954cf5ecff1a1a30bc9a1669bdf83f1",
+      "after_sha256": "34a9a81afd713973cfbab3ff9fa8233c7751c06094e07e5da486ba84d6ad7c81",
+      "code_without_comments_sha256": "b5daedc96e67b37bb494a3a522d011e5b90f32093a0d6910b5261d6ffa080e2d"
+    },
+    "QIT/Coding/Private/TransposeCriterion.lean": {
+      "before_sha256": "ab9e87480503b8eea2b56741f7c81ee684c468f743815d319ffd6f3b5e22adc5",
+      "after_sha256": "f51411ef2ef11ee8fe9c7d567e8a41e801a7301478b5bce45ea89fc31aa72517",
+      "code_without_comments_sha256": "94ca8df3111b8af8bb2f3285dea8f9fe707a1d0d461d969d08e2eabb61016ed1"
+    },
+    "QIT/Coding/Private/TransitionChannel.lean": {
+      "before_sha256": "49891aa9fd592b8a4a4c0539d77956719d14f2e05973547ca5ec646200fb6d10",
+      "after_sha256": "dd1a1540ae3f125aea05333bcd87cae233be8d2523e48efa925925903567d6a0",
+      "code_without_comments_sha256": "668eb3641961222bc072ed4ec67922d0c07e3e2f0441c5c87eda5ef301d2f86e"
+    },
+    "QIT/Coding/Private/TransitionChannelData.lean": {
+      "before_sha256": "069f1b359dc621ffd2712ff16697d2780e2bdd1ca08ab158a388871663ecce19",
+      "after_sha256": "b1e94a1784860b21859be0536069e23a3a0ac930d963068c554bd8c30dc16587",
+      "code_without_comments_sha256": "40b3989e1968cc4327393ab969ff946bc6f8bbaecd40ab28c385eeb57cc24639"
+    },
+    "QIT/Coding/Private/TransitionProduct.lean": {
+      "before_sha256": "f66857498c2d191b0af78465883ac9993361377572f51bf1db3cc5d965434e06",
+      "after_sha256": "5c27c956224beb0bec6f94ea056b3d782a1924c011eb010327f718d7fbe86667",
+      "code_without_comments_sha256": "34755a7f6c5ab2f7e47cc16457a2dc54d964e7cd48672b59004c3497c2bd6cd1"
+    },
+    "QIT/Coding/Private/TransitionSuperactivation.lean": {
+      "before_sha256": "21aa7b6b67bed0bcbc85639655fb5e24548d1dba4cab1e582b0cec884bc5506e",
+      "after_sha256": "2431243018014a852206d4274a81756a74f7d538404611956bc4a9da96fd0fcd",
+      "code_without_comments_sha256": "6a937caa00cd14d35bbd0669e950917c3fa2a5c8f785557e5097a7009bd5e4fd"
+    },
+    "CurrentProof.lean": {
+      "before_sha256": "528672c66cfd1667f32a7e86d276f408a9f3c9e91049e3760143679a03f08c13",
+      "after_sha256": "9d8724671c7afc80ac661f3453843e68b2106376d3999f387bcb6321fa720eb8",
+      "code_without_comments_sha256": "577a172aa2999675b9c29159c535611b5c3582c56484b76404dcca0942f1fbbb"
+    },
+    "Check.lean": {
+      "before_sha256": "549e0f3034fd64748bd1d4d62313a02449cedb873e7ba085ec413aeb502c964e",
+      "after_sha256": "f8068ea4e3cb89a12e56dfc347a4311023678eb4b6c5f23803e38f37fb2a4361",
+      "code_without_comments_sha256": "29681c864d697ea21df3d5fab3c0ca5ba8ffba8a5ffcd088d1d59f105358dfbd"
+    }
+  },
+  "other_files": [
+    "README.md",
+    "docs/DEPENDENCIES.md",
+    "docs/PROOF_MAP.md",
+    "docs/VERIFICATION.md",
+    "scripts/check_transition_channel.py",
+    "scripts/generate_transition_data.py"
+  ]
+}

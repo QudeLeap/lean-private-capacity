@@ -11,7 +11,7 @@ public import QIT.Core.Map.ChoiCharacterization
 
 /-! # The transition channel and its transpose simulator
 
-The eight errors and their weights are those of `private_superactivation.tex`.
+The eight errors and their weights are specified in arXiv:2609.10520.
 The complementary channel retains the entire Kraus register. The rational
 certificate is converted to a completely positive, trace-preserving simulator.
 -/
@@ -68,7 +68,7 @@ theorem kraus_completeness : MatrixMap.krausAdjoint kraus 1 = 1 := by
       have h := congrArg (fun q : ℚ ↦ (q : ℂ)) (TransitionData.completeness i j)
       simpa only [Rat.cast_sum, Rat.cast_mul, apply_ite, Rat.cast_one, Rat.cast_zero] using h
 
-/-- The main channel of the new manuscript. -/
+/-- The four-dimensional transition channel. -/
 def mainChannel : Channel (Fin 4) (Fin 4) where
   map := MatrixMap.ofKraus kraus
   completelyPositive := MatrixMap.ofKraus_completelyPositive _

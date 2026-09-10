@@ -1,7 +1,7 @@
 import CurrentProof
 import Lean.Util.CollectAxioms
 
--- Latest manuscript: actual new channels, full complements, every p in the stated interval.
+-- Check the transition channels, full complements and stated probability interval.
 example : QIT.Channel.IsComplementOf QIT.Transition.complement QIT.Transition.mainChannel :=
   QIT.Transition.complement_isComplementOf
 

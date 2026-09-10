@@ -9,7 +9,7 @@ public import QIT.Coding.Private.TransitionProduct
 public import QIT.Coding.Private.FlaggedCoin
 public import QIT.Coding.Private.CapacityBounds
 
-/-! # Superactivation for the new manuscript, for every 1/2 ≤ p < 1
+/-! # Transition-channel superactivation for every 1/2 ≤ p < 1
 
 This proves the positive explicit rate for the actual finite-dimensional
 channels and full complements. Capacity is the regularized private-information

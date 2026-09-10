@@ -1,6 +1,7 @@
 # Proof correspondence
 
-This map covers the latest transition-channel information-capacity argument.
+This map covers the transition-channel information-capacity argument in
+[arXiv:2609.10520](https://arxiv.org/abs/2609.10520).
 The external manuscript fingerprint is recorded in `audit/source-review.json`;
 no manuscript is distributed or required to build the proof.
 The actual endpoint is `QIT.Transition.superactivation_main` in
@@ -94,6 +95,5 @@ bound needed for that endpoint is constructed or proved in Lean.
 
 Operational trace-distance coding, the equality between operational capacity and
 this regularized formula, and the PPT-decoder converse are outside this Lean proof.
-The full article therefore does not have a one-to-one machine proof. The core
-information-capacity argument above has explicit checked counterparts; equivalent
-algebraic proof routes and remaining scope limits are identified rather than hidden.
+The correspondence above covers the core information-capacity argument, including
+the equivalent algebraic proof routes used by Lean.

@@ -12,7 +12,7 @@ public import QIT.Core.POVMProbability
 
 /-! # The actual product channel and both complete environment branches
 
-The input order is `R × A`, as in the new manuscript. Bob's erasure register
+The input order is `R × A`, as in the paper. Bob's erasure register
 is signal followed by flag; Eve's is flag followed by signal.
 -/
 

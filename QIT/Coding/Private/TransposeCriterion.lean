@@ -13,10 +13,8 @@ public import QIT.Util.Matrix
 /-!
 # The transpose-simulator criterion for zero private capacity
 
-This module formalizes the elementary background criterion of the paper
-"Private-capacity superactivation and complete information comparison"
-(Zhu--Wang, 2026), Section 1, paragraph "An elementary background criterion",
-together with its antidegradable sibling:
+This module proves the transpose-simulator criterion for zero private capacity
+and its antidegradable specialization:
 
 * if a channel `𝓝` admits a *transpose simulator* — a genuine channel `𝓓`
   with `𝓓 ∘ 𝓝ᶜ = 𝖳 ∘ 𝓝` — then `P(𝓝) = 0` at every block length
@@ -144,7 +142,7 @@ original: `χ({p_x, ρ_xᵀ}) = χ({p_x, ρ_x})`.
 Proof: unfold `holevoInformation` (`Ensemble.holevoInformation_def`),
 rewrite the average state with
 `Ensemble.averageState_transposeEnsemble`, and cancel the two entropy
-invariances `State.vonNeumann_transpose` (of `Basic`, obligation M2-3)
+invariances `State.vonNeumann_transpose` (from `Basic`)
 term by term. -/
 theorem Ensemble.holevoInformation_transpose (E : Ensemble ι a) :
     E.transposeEnsemble.holevoInformation = E.holevoInformation := by
