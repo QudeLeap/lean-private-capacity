@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and identify the exact source archive hash or Git commit used."
+type: software
+title: "Private-capacity superactivation in Lean 4"
+authors:
+  - name: "QuAIR Team"
+  - family-names: Zhu
+    given-names: Chengkai
+repository-code: "https://github.com/QudeLeap/lean-private-capacity"
+license: Apache-2.0
+abstract: >-
+  Lean 4 proofs of private-capacity superactivation for the transition channel
+  and every erasure probability 1/2 <= p < 1, using the regularized information
+  formula and the explicit quadratic lower bound, together
+  with exact mathematical certificates and an explicit coverage map.
+  This artifact does not formalize the complete paper or operational coding theorem.
