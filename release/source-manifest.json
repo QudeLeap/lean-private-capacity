@@ -126,7 +126,7 @@
     "LICENSE": "f3af7f9a7b5239d74bdc8bb43047820c1370caad7bd361777eda6ecca6bd874b",
     "NOTICE": "d404a7973621399209e54ab2bd59a5023ea5aaf3221116b55e469bfb16f74618",
     "QIT.lean": "79d76e9d416791bc62a27329322efe1e22e6838341f44ac69f6fe48d1ad2bd02",
-    "README.md": "0853aff4c294549d1fa15e5e68948ba35f7b00738a74d0fcb85d465c2b40d3da",
+    "README.md": "7708d6e1dd9d2def0cb84fc0f4d39f945528fb45376f244b0cdfc03efa82a192",
     "audit/source-review.json": "536109709f83e25bfc5c7d07c11739ad1a3475f20cd46fa16ad70d371b97ca82",
     "docs/PROOF_MAP.md": "c0283c625a4f548bb07d0ff96da19d441a9624e73e25ecf72acdd1f6c5b72522",
     "docs/VERIFICATION.md": "aea3006c7ab97d26753527e82d609f40262d97336a9001890b4ca896ab73a024",
@@ -269,5 +269,13 @@
     "QIT/Util/SDP/PSDCone.lean": "965424dc6a8994b749519710a2db94db0a3b14f2d60175eb658e7c0898c4867e",
     "QIT/Util/TensorPower.lean": "34341ebebb90def760176bfb778e2f9a36b68ab8a3a6d9352accb922cfcd3189"
   },
-  "note": "Source-only package. Mathematical hashes are preserved from the reviewed proof. A changed hash is not a substitute for semantic review."
+  "note": "Source-only package. Mathematical hashes are preserved from the reviewed proof. A changed hash is not a substitute for semantic review.",
+  "documentation_update": {
+    "description": "Added the arXiv:2609.10520 badge to README.md.",
+    "changed_support_files": [
+      "README.md"
+    ],
+    "verified_build_manifest_sha256": "3e5a7840f99848d7dde4b88168b14d4bc7ade06a717c149efe2d9ab49213e6e4",
+    "note": "Mathematical sources, proof checks, toolchain and dependencies are unchanged. The existing build evidence refers to audit/release-build-inputs.json; no new Lean rebuild is claimed for this documentation-only change."
+  }
 }

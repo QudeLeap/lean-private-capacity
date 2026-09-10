@@ -1,5 +1,7 @@
 # Private-capacity superactivation in Lean 4
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.10520-b31b1b.svg)](https://arxiv.org/abs/2609.10520)
+
 Lean proofs supporting *Private communication via zero-private-capacity quantum
 channels* by Chengkai Zhu and Xin Wang. `main` supports the latest transition-channel
 version. This repository contains proof source code and verification tools; the
