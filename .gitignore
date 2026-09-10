@@ -1,0 +1,9 @@
+.lake/
+*.olean
+*.ilean
+*.c
+build/
+.vscode/
+__pycache__/
+.venv/
+dist/

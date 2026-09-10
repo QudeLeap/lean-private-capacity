@@ -1,0 +1,16 @@
+Private-capacity superactivation in Lean 4
+Copyright 2026 QuAIR
+
+The 96 foundational QIT source files identified in release/source-manifest.json
+are based on Lean-QIT-Dev, commit
+575c608c5794283b690e30e0f294c240699fcc79. The file
+QIT/Information/Entropy/EntropyTensorPower.lean exposes the existing proved
+xlog2_sum_scaled_state_spectrum helper publicly; its statement and proof are
+unchanged. The other 95 foundational files are unchanged.
+Their original copyright and authorship notices are preserved. The upstream
+Apache 2.0 license is reproduced in release/LeanQIT-LICENSE.
+The private-capacity overlay is identified separately in audit/source-review.json.
+
+Lean and the dependencies pinned by lake-manifest.json are obtained separately
+from their upstream repositories and retain their own licenses. No dependency
+repositories, compiled artifacts, or access credentials are distributed here.
