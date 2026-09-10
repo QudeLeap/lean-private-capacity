@@ -141,18 +141,18 @@
     "QIT/Util/TensorPower.lean": "34341ebebb90def760176bfb778e2f9a36b68ab8a3a6d9352accb922cfcd3189"
   },
   "support_files": {
-    ".gitignore": "fe79a509439f2088841ec985729d7aa2c81a025511b82cac56f519eef7d09f7b",
+    ".gitignore": "8d52bef95b1f0b7877c9e3bbacc5a10f107b2db7c8f761dc7ff017f3730f59c3",
     "CITATION.cff": "3ad1f6396468c6ee7e19c07270be90a717dbc31136fb5301e363a7d12301b715",
     "Check.lean": "61b36a8aa964f12524a6ebd6043db7e14450d2356d09f9a027e3ee8ac45d2ad1",
     "LICENSE": "f3af7f9a7b5239d74bdc8bb43047820c1370caad7bd361777eda6ecca6bd874b",
     "NOTICE": "d404a7973621399209e54ab2bd59a5023ea5aaf3221116b55e469bfb16f74618",
     "QIT.lean": "ecf6e172b319352e2d98afd4bdb06aaf49427c976f2de6da4af0af5c67628ac4",
-    "README.md": "a81e6c8163353ca7df3c61f69cf1c31f06bafb215a248cc8fa54b9643785001f",
+    "README.md": "ee5f206ae044697b7369f933dd314683ec1292aafe2268162e283a2e1a723ff9",
     "audit/prior-release-axioms.log": "fa13bcaf604d429bd537666fe1cc797788694dede12ac345037c2fa9c67faeef",
     "audit/prior-release-build.log": "89c5a513ac3b3272ee386eda09db2e7c6a80e03fad7b708b1e67fc8fc50f18c7",
     "audit/prior-verification.json": "9210c46a67fff709959d9309ede4e923b5d9e8dfe3519f5956fff7f12776ae9a",
     "audit/source-review.json": "c03c03ab4c02445e613f17d1d33e73880c8773ee56e4183f1d7ab1fc22f50f6f",
-    "docs/PROOF_MAP.md": "4421e0153d58299c54334da6cc04b72bf4098a5e296b622b9a7628fcce770ecd",
+    "docs/PROOF_MAP.md": "bf3ccb2da1a93e70bf77e390851381cde4e06316f879e61372cb9b4f0d263b54",
     "docs/VERIFICATION.md": "772be264342dc2ac95b7d64a4f30b9207ca2b9bbb5fc1a687101b10cf61e1901",
     "lake-manifest.json": "be02ecfb455fc5685ddd84d19b37095d7b48b99afdbad423e63efe6c5fbe6598",
     "lakefile.toml": "142a944d35db5c24870a49ab98303c927505afbd23c45eb187af5111409e128a",
@@ -310,5 +310,14 @@
     "QIT/Util/SDP/PSDCone.lean": "965424dc6a8994b749519710a2db94db0a3b14f2d60175eb658e7c0898c4867e",
     "QIT/Util/TensorPower.lean": "34341ebebb90def760176bfb778e2f9a36b68ab8a3a6d9352accb922cfcd3189"
   },
-  "note": "Source-only package. Mathematical hashes are preserved from the reviewed proof. A changed hash is not a substitute for semantic review."
+  "note": "Source-only package. Mathematical hashes are preserved from the reviewed proof. A changed hash is not a substitute for semantic review.",
+  "documentation_update": {
+    "description": "Simplified the earlier-proof description and ignored manuscript source files.",
+    "changed_support_files": [
+      ".gitignore",
+      "README.md",
+      "docs/PROOF_MAP.md"
+    ],
+    "note": "Mathematical sources, proof checks, toolchain and dependencies are unchanged. Preserved kernel evidence retains its original verification date; no new Lean rebuild is claimed for this documentation-only change."
+  }
 }

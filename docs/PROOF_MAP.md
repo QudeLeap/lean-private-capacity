@@ -1,6 +1,6 @@
 # Earlier half-erasure proof
 
-This branch preserves the deformed half-erasure construction preceding `main-new.tex`.
+This branch preserves the deformed half-erasure construction.
 The endpoint `QIT.QubitActivation.deformed_superactivation_main` has no hypotheses.
 
 | Proof step | Source module in `QIT/Coding/Private/` |
