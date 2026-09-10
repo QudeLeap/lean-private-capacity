@@ -43,7 +43,7 @@ Lean 4.30.0 and all dependencies are pinned. Only `propext`, `Classical.choice` 
 | Branch | Proof version |
 |---|---|
 | [`main`](https://github.com/QudeLeap/lean-private-capacity/tree/main) | Latest transition-channel construction, all `1/2 ≤ p < 1`. |
-| [`pre-main-new-proof`](https://github.com/QudeLeap/lean-private-capacity/tree/pre-main-new-proof) | Earlier deformed half-erasure example, preceding `main-new.tex`. |
+| [`pre-main-new-proof`](https://github.com/QudeLeap/lean-private-capacity/tree/pre-main-new-proof) | Earlier deformed half-erasure example. |
 
 ## Repository layout
 
